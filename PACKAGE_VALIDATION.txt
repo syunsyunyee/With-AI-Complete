@@ -1,0 +1,14 @@
+Source: Yoon-nana/With-AI-Complete (public source archive downloaded 2026-10-25)
+Purpose: portable package for a DIFFERENT GitHub account. No remote repository was changed.
+
+Verified:
+- Complete original project files retained.
+- Static HTML entry files contain no hardcoded source-account download link.
+- Download link resolves project Pages, renamed repositories and user Pages correctly.
+- Local files retain a link to deployment instructions.
+- docs/launch-menu.js matches web/launch-menu.js; JavaScript syntax check passed.
+- All HTML/CSS local asset references in docs exist.
+- Complete ZIP entries verified against source bytes and CRC.
+
+Not executed: deployment to the new account, Windows installation, physical robot communication.
+GitHub Pages serves docs/. Python/USB services continue to run locally on the Windows PC.

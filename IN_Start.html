@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>정선 AIGO · IN 서비스</title>
+<link rel="stylesheet" href="web/readable.css"><link rel="stylesheet" href="web/connection.css">
+<link rel="stylesheet" href="web/firmware-guide.css">
+<script src="web/launch-menu.js" defer></script><script src="web/firmware-guide.js" data-asset-root="web/assets/microbit-guide/" defer></script>
+</head><body class="app-hub-mode">
+<nav class="app-nav" aria-label="기능 선택"><strong>정선 AIGO · IN 서비스</strong></nav>
+<section class="in-connection" aria-label="장치 연결">
+<button id="in-robot-open" type="button">로보독 연결하기</button><button id="in-microbit-open" type="button">마이크로비트 연결하기</button>
+<a class="in-download" href="models/unified.hex" download="AIGO-IN-unified.hex">마이크로비트 프로그램 다운로드</a>
+<span id="entry-status" role="status">사용할 기능을 선택해 주세요.</span></section>
+<main id="app-hub" class="app-hub">
+    <img src="web/assets/robodog.svg" alt="로보독" width="150" height="129">
+    <h1>무엇을 도와드릴까요?</h1><p>사용할 기능을 골라 주세요.</p>
+    <div class="app-choices"><button id="app-choice-kiosk" data-action="open_app" data-value="kiosk"><span aria-hidden="true">☕</span><strong>키오스크 연습</strong><small>카페 주문을 차근차근 연습해요</small></button><button id="app-choice-medication" data-action="open_app" data-value="medication"><span aria-hidden="true">◷</span><strong>복약 알리미</strong><small>시간을 설정하고 STOP QR로 확인해요</small></button><button data-action="open_app" data-value="exercise"><span aria-hidden="true">✦</span><strong>가벼운 체조</strong><small>무작위 1~5회 미션에 도전해요</small></button><button data-action="open_app" data-value="nap"><span aria-hidden="true">☾</span><strong>낮잠 자기</strong><small>쉬는 시간을 정하면 깨워드려요</small></button><button id="app-choice-daywatch" data-action="open_app" data-value="daywatch"><span aria-hidden="true">⌂</span><strong>무응답 감지 설정</strong><small>움직임과 얼굴을 확인해 알려드려요</small></button></div>
+  </main>
+<details style="max-width:1000px;margin:20px auto;padding:0 24px;line-height:1.8"><summary>처음 사용하는 PC · 설치 안내</summary>
+<p><a id="project-download" href="DEPLOY_GITHUB_PAGES.md">프로젝트 다운로드 · 설치 안내</a> → 압축 풀기 → Python 3.13 설치 → <strong>IN_Install.cmd</strong> 한 번 실행. 이후 메인 화면에서 기능과 연결 버튼을 사용하세요.</p></details>
+</body></html>
